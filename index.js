@@ -1,4 +1,5 @@
 // Add your code here
+function submitData(){
 fetch("http://localhost:3000/dogs", {
   method: "POST",
   headers: {
@@ -18,3 +19,4 @@ fetch("http://localhost:3000/dogs", {
     alert("Bad things! Ragnarők!");
     console.log(error.message);
   });
+}
